@@ -76,7 +76,7 @@ body {
 .main-content {
     display: flex;
     flex-direction: row;
-    height: calc(1008px - 90px);
+    height: 100%;
     align-items: stretch;
     width: 100%;
 }
@@ -174,7 +174,7 @@ body {
 
     @page {
         size: letter portrait;
-        margin: 0.25in;
+        margin: 0.5in;
         marks: none;
     }
 }
